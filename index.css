@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.a4papper {
+    background-color: #fff;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.printed-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
+
+.printed-content h1,
+.printed-content h2,
+.printed-content h3 {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.printed-content p {
+    font-size: 10px;
+}
+
+.printed-content h4,
+.printed-content h5,
+.printed-content h6 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.printed-content hr {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    color: black;
+    /* margin: 15px 0; */
+}
+
+.printed-content p {
+    margin-bottom: 15px;
+}
+
+.printed-content table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+.printed-content table,
+.printed-content th,
+.printed-content td {
+    border: 1px solid #000000;
+}
+
+.printed-content th,
+.printed-content td {
+    padding: 10px;
+    text-align: left;
+}
+
+.printed-content .bottom-sign h6 {
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .responsive-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .responsive-text {
+        font-size: 16px;
+    }
+}
